@@ -1,0 +1,9 @@
+Video no youtube criando a controladora com arduino
+https://www.youtube.com/watch?v=oEjYpRi2ODI&list=LL_64JRg_TvDLWFh6M8oU-SQ&index=2&t=1319s
+
+Usar o ttymidi (similar ao hairless-midi)
+http://mkctbbq.blogspot.com/2014/12/installing-ttymidi-on-ubuntu-studio.html
+http://www.varal.org/ttymidi/
+
+Executar no terminal a ponte serial x midi: (/dev/ttyACM0 é a porta do arduino)
+ttymidi -s /dev/ttyACM0 -b 9600
